@@ -11,7 +11,7 @@ export const FeaturedImage = styled.div`
   background: url(/images/${({ background }) => background});
   background-repeat: no-repeat;
   background-size: cover;
-  transition: background 1s ease-in-out;
+  transition: background 0.5s ease-in-out;
 `
 export const TrendingNow = styled.div`
   display: flex;
